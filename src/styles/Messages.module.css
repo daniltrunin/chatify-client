@@ -1,0 +1,31 @@
+.message {
+  border-radius: 1.2rem;
+
+  padding: 0.8rem 1.6rem;
+
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.user {
+  background-color: #f1f1f1;
+  color: black;
+
+  justify-self: flex-start;
+
+  max-width: 45%;
+}
+
+.me > .user {
+  background-color: #615ef0;
+  color: white;
+}
+
+.me {
+  background-color: #615ef0;
+  color: white;
+
+  justify-self: flex-end;
+
+  max-width: 45%;
+}
