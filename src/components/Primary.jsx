@@ -9,7 +9,7 @@ import styles from "../styles/Primary.module.css";
 
 import Messages from "./Messages";
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://chatify-server-miva.onrender.com");
 
 const Primary = () => {
   const { search } = useLocation();
