@@ -21,6 +21,12 @@
 
 ## Дизайн
 
-- В качестве выбранного референса для основы дизайна интерфейса был выбран вот этот вариант {
-  "file_url": "https://www.figma.com/design/GKu0zv0XBU5kyQOy98cPgk/Chat-Web-App-UI-Kit-(Community)?node-id=0-1&t=4Vj0HygiqOc2k0r7-1"
-  }
+- В качестве выбранного референса для основы дизайна интерфейса был выбран вот этот вариант
+
+  https://www.figma.com/design/GKu0zv0XBU5kyQOy98cPgk/Chat-Web-App-UI-Kit-(Community)?node-id=0-1&t=4Vj0HygiqOc2k0r7-1
+
+## Ссылка на продакшн деплой
+
+https://chatifymerce.netlify.app/
+
+- Для деплоя использовал netlify (client side) и render (server side)
