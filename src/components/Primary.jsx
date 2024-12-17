@@ -1,9 +1,9 @@
-import React, { Children, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import io from "socket.io-client";
-import EmojiPicker from "emoji-picker-react";
+// import EmojiPicker from "emoji-picker-react";
 
-import icon from "../images/emoji.svg";
+// import icon from "../images/emoji.svg";
 
 import styles from "../styles/Primary.module.css";
 
@@ -17,7 +17,7 @@ const Primary = () => {
   const [params, setParams] = useState({ room: "", user: "" });
   const [state, setState] = useState([]);
   const [message, setMessage] = useState("");
-  const [isOpen, setOpen] = useState(false);
+  // const [isOpen, setOpen] = useState(false);
   const [users, setUsers] = useState(0);
   const [hovered, setHover] = useState(false);
 
@@ -54,7 +54,7 @@ const Primary = () => {
 
     setMessage("");
   };
-  const onEmojiClick = ({ emoji }) => setMessage(`${message} ${emoji}`);
+  // const onEmojiClick = ({ emoji }) => setMessage(`${message} ${emoji}`);
 
   return (
     <div className={styles.primary__wrap}>
