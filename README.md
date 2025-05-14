@@ -87,7 +87,7 @@ $ npm install
 ## You may also like...
 
 - [Popcorn Server](https://github.com/daniltrunin/popcorn-Express.JS-server) - Popcorn Express.JS Server
-- [Chatify](https://github.com/daniltrunin/chatify-client) - Real Time Chat Based App
+- [Report Bot](https://github.com/daniltrunin/reportbot-client) - Bot for reporting in Telegram
 - [Habbit](https://github.com/amitmerchant1990/correo) - Task, Habbits Tracker App
 
 ---
